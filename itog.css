@@ -1,0 +1,43 @@
+﻿body{background-image: url(look.com.ua-168032.jpg);
+   font-style: oblique;
+   font-size: 18px;
+   color: orange;
+   }
+#b2{width: 95%;
+    height: 30%;
+    padding: 10px;
+    margin: 20px;
+    background-color: #00FFFF;
+    font-size: 20px;
+    text-align: center;
+}
+#b3{width: 28%;
+    height: 30%;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    background-color: #87CEEB;
+    text-align: left;
+
+   }
+#b4{width: 60%;
+   height: 1900px;
+   padding: 10px;
+   margin: 20px;
+   float: right;
+   background-color: #87CEEB;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family:"Times New Roman";
+   font-size: 15pt;
+   text-align: center;
+   color: white; 
+   } 
+#b5{clear: both;
+    width: 95%;
+    height: 10%;
+    padding: 10px;
+    margin: 20px;
+    background-color: #7B68EE;
+    text-align: center;
+}
