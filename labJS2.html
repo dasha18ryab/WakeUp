@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Итог</title>
+<meta charset= "utf-8">
+<link rel='stylesheet' href = 'itog.css'>
+<script src="script.js">
+</script>
+</head>
+<body>
+<div id="b2">
+<h2>Итог работы с Html и CSS<h2>
+<h4>стандартизированный язык разметки документов во Всемирной паутине</h4>
+</div>
+<div id="b3">
+<ol>
+<li><a href="lab1.html">Лабораторная работа №1</a></li>
+<li><a href="lab2.html">Лабораторная работа №2</a></li>
+<li><a href="lab3.html">Лабораторная работа №3</a></li>
+<li><a href="lab4.html">Лабораторная работа №4</a></li>
+<li><a href="module.html">Модуль</a></li>
+<li><a href="labJS2.html">Лабораторная работа "JavaSript"№2</a></li>
+</ol>
+</div>
+<div id='b4'>
+<div id="d1">
+<p>13. Создать группу радиокнопок, с помощью которой можно сменить некоторую картинку на картину с мастью карты, которая 
+
+указана в качестве подписи соответствующей радиокнопки (создайте четыре варианта выбора). Создайте обработку события формы 
+
+onreset появлением строки «ВСЕ ПРАВИЛЬНО» в одностроковом поле ввода информации данной формы.</p>
+</div>
+<div id="d2">
+<form action="" method="post" name="lab1"  >
+	<img src="water.jpg" alt="waterfall" id="pic1"style="height: 350px ;width: 450px" ><br>
+	<input type="radio" name="first" id="first" value="newN" onclick ="change1()">Черва<br>
+	<input type="radio" name="first" id="second" value="newN" onclick ="change2()">Бубна<br>
+	<input type="radio" name="first" id="third" value="newN" onclick ="change3()">Трефа<br>
+	<input type="radio" name="first" id="fourh" value="newN" onclick ="change4()">Пика<br>
+</form> 
+	<form onreset="alert('ВСЕ ПРАВИЛЬНО')">
+Enter name: <input  type="text" name="user">
+    <input type="reset">
+	</form>
+</div>
+</div>
+<div id='b5'>
+	<p>&copy;Рябова Дар'я 2018р.</p>
+</div>
+</body>
+</html>
