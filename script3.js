@@ -10,7 +10,7 @@ for (var i=0;i<N;i++){
 	
 	alert(res)
 	console.log(res);
-	document.getElementById('result').innerHTML = res;
+	document.getElementById('result').innerHTML =document.getElementById('result').innerHTML+res;
 
 	
 	sim1 = sim2 ;
