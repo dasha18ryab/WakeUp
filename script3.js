@@ -8,7 +8,7 @@ for (var i=0;i<N;i++){
 
 	res= sim1 + sim2;
 	
-	alert(res)
+	
 	console.log(res);
 	document.getElementById('result').innerHTML =document.getElementById('result').innerHTML+res;
 
