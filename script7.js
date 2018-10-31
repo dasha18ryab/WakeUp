@@ -1,6 +1,7 @@
 ﻿var d, m,y;
  function Fdate() {
  	 d=document.getElementById('Text').value;
+	document.getElementById('Text').value="";
 
 
  	
@@ -10,12 +11,15 @@
 }
  function Fmonth() {
  	 m=(document.getElementById('Text').value);
+	 document.getElementById('Text').value="";
  	
  	return m;
 
 }
  function Fyear() {
  	 y=document.getElementById('Text').value;
+	 document.getElementById('Text').value="";
+	 
  	
  	return y;
 
